@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="stylesheet" type="text/css" href="css/switcher.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/icons-skills.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+		<nav class="menu-navegacion">
+			<img class="menu-logo" src="imagenes/logo-blanco.png" alt="Logo de una flor de loto blanca">
+ 			<ul class="menu-navegacion-lista">
+				<li class="menu-navegacion-names"><a class="menu-navegacion-href" href="#main-info">Home</a></li>
+				<li class="menu-navegacion-names"><a class="menu-navegacion-href" href="#sobre-mi">About me</a></li>
+				<li class="menu-navegacion-names"><a class="menu-navegacion-href" href="#skills">Skills</a></li>
+				<li class="menu-navegacion-names"><a class="menu-navegacion-href" href="#educacion">Education</a></li>
+				<li class="menu-navegacion-names"><a class="menu-navegacion-href" href="#experiencias">Experiences</a></li>
+				<li class="menu-navegacion-names"><a class="menu-navegacion-href" href="#contactos">Contact</a></li>
+				<div class="switcher">
+					<input type="checkbox" id="switcher-toggle" class="switcher-toggle" onchange="cambiarIdioma(this.checked)">
+					<label for="switcher-toggle" class="switcher-label">
+						<span class="switcher-text switcher-text--en">EN</span>
+						<span class="switcher-text switcher-text--es">ES</span>
+						<span class="switcher-slider"></span>
+					</label>
+				</div>
+			</ul>
+		</nav>	
+	</header>
+
+	<main class="container">
+		<section class="container-section" id="main-info">
+			<div class="container-section-presentacion">
+				<h1 class="container-section-presentacion-titulo">Hi, I'm Belén Issetta.</h1>
+				<h2 class="container-section-titulo">Web developer student.</h2>
+			</div>
+		</section>
+
+		<section class="container-section" id="sobre-mi">
+			<div class="container-section-box">
+				<div class="container-section-sobre-mi">
+					<h2 class="container-section-titulo">About me</h2>
+				</div>
+
+				<div class="container-section-rectangulo">	
+					<p class="container-section-texto">
+                        Hi! I'm a person passionate about learning and I'm always looking for new opportunities to grow personally and professionally. <br><br>
+
+                        I love staying up-to-date in my field and learning new things, as I believe it's never too late to acquire new skills. <br><br>
+                        
+                        Furthermore, as a professional, I fully trust in my ability to create a friendly and challenging work environment where I can collaborate in the creation of customized projects for each person. <br><br>
+                        
+                        My languages and customer service skills allow me to easily adapt to the needs of each project and ensure its success. <br><br>
+                        
+                        I'm always open to new opportunities and challenges, so I'm excited to continue exploring and learning in my professional career.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="container-section" id="skills">
+			<div class="container-section-box">
+				<div class="container-section-skills">
+				<h2 class="container-section-titulo">Skills</h2>
+				</div>
+				<div class="container-logos-skills">
+					<div class="logos-skills">
+						<img class="logo-chico" src="Imagenes/icons/html.png" alt="Logo HTML">
+						<h2 class="skill-texto">HTML</h2>
+					</div>
+					<div class="logos-skills">
+						<img class="logo-chico" src="Imagenes/icons/css.png" alt="Logo CSS">
+						<h2 class="skill-texto">CSS</h2>
+					</div>
+					<div class="logos-skills">
+						<img class="logo-chico" src="Imagenes/icons/javascript.png" alt="Logo Javascript">
+						<h2 class="skill-texto">Javascript</h2>
+					</div>
+					<div class="logos-skills">
+						<img class="logo-chico" src="Imagenes/icons/java.png" alt="Logo Java">
+						<h2 class="skill-texto">Java</h2>
+					</div>
+					<div class="logos-skills">
+						<img class="logo-chico" src="Imagenes/icons/python.png" alt="Logo Python">
+						<h2 class="skill-texto">Python</h2>
+					</div>
+					<div class="logos-skills">
+						<img class="logo-chico" src="Imagenes/icons/it.png" alt="Logo engranaje de configuración">
+						<h2 class="skill-texto">IT</h2>
+					</div>
+					<div class="logos-skills">
+						<img class="logo-chico" src="Imagenes/icons/redes.png" alt="Cableado de redes">
+						<h2 class="skill-texto">Networking</h2>
+					</div>
+					<div class="logos-skills">
+						<img class="logo-chico" src="Imagenes/icons/aduana.png" alt="Barco de aduana">
+						<h2 class="skill-texto">Customs broker</h2>
+					</div>
+					<div class="logos-skills">
+						<img class="logo-chico" src="Imagenes/icons/usa.png" alt="Bandera de Estados Unidos">
+						<h2 class="skill-texto">English bilingual B2</h2>
+					</div>
+					<div class="logos-skills">
+						<img class="logo-chico" src="Imagenes/icons/brasil.png" alt="Bandera de Brasil">
+						<h2 class="skill-texto">Portuguese A1</h2>
+					</div>
+					<div class="logos-skills">
+						<img class="logo-chico" src="Imagenes/icons/alemania.png" alt="Bandera de Alemania">
+						<h2 class="skill-texto">German A1</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="container-section" id="educacion">
+			<div class="container-section-box">
+				<div class="container-section-educacion">
+				<h2 class="container-section-titulo">Education</h2>
+				</div>
+					<div class="container-educacion">
+						<div class="container-educacion-lista">
+						<ul>
+							<li>
+								<h3>FullStack Web development HTML | CSS | JS | </h3>
+								<p>Institution: Alura Latam</p>
+								<p>Period: 2022-2023</p>
+							</li>
+							<li>
+                                <h3>PC Assembly and Repair Technician Degree</h3>
+                                <p>Institution: CISE</p>
+                                <p>Period: 2014</p>
+							</li>
+							<li>
+                                <h3>Computer Networks Technology</h3>
+                                <p>Institution: CISE</p>
+                                <p>Period: 2014</p>
+							</li>
+							<li>
+                                <h3>Assistant in Customs Brokerage</h3>
+                                <p>Institution: FICDE</p>
+                                <p>Period: 2014</p>
+							</li>
+							<li>
+                                <h3>Argentina Program 4.0</h3>
+                                <p>Institution: Ticmas</p>
+                                <p>Period: 2022-2023</p>
+							</li>
+						</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> 
+		
+		<section class="container-section" id="experiencias">
+			<div class="container-section-box">
+				<div class="container-section-experiencia">
+				<h2 class="container-section-titulo">Work Experience</h2>
+					<div class="container-experiencia">
+						<ul>
+							<li>
+                                <h3>Administrative and IT Secretary</h3>
+                                <p>Company: Issetta Hnos S.A</p>
+                                <p>Period: December 2021 to April 2022</p>
+                                <p>Description: Administrative tasks, invoicing, secretarial work, IT, networks, intranet.</p>
+							</li>
+							<li>
+                                <h3>Customer Service Representative</h3>
+                                <p>Company: Market Line S.A</p>
+                                <p>Period: November 2014 to October 2021</p>
+                                <p>Description: Customer service for technical support.</p>
+							</li>
+						</ul>
+					</div>	
+				</div>
+			</div>
+		</section>
+
+		<section class="container-section" id="contactos">
+			<div class="container-section-box-contacto">
+				<div class="container-section-contacto">
+				<h2 class="container-section-titulo">Contact</h2>
+				</div>
+					<div class="contacto">
+						<div class="redes-sociales-container">
+							<a href="">
+								<section class="redes-sociales">
+									<div class="texto-redes">
+										<h3>belen.issetta@outlook.com</h3>
+									</div>
+									<div class="icono-redes">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+											<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+										</svg>
+									</div>
+								</section>
+							</a>
+							<a href="https://api.whatsapp.com/send?phone=5491126622341" target="_blank">
+								<section class="redes-sociales">
+									<div class="texto-redes">
+										<h3>Phone</h3>
+									</div>
+									<div class="icono-redes">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+											<path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+											<path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+										</svg>
+									</div>
+								</section>
+							</a>
+							<a href="https://github.com/MooNBel" target="_blank">
+								<section class="redes-sociales">
+									<div class="texto-redes">
+										<h3>GitHub</h3>
+									</div>
+									<div class="icono-redes">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+											<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+										</svg>
+									</div>
+								</section>
+							</a>
+							<a href="https://www.linkedin.com/in/roc%C3%ADo-bel%C3%A9n-issetta-4ba471228/" target="_blank">
+								<section class="redes-sociales">
+									<div class="texto-redes">
+										<h3>Linkedin</h3>
+									</div>
+									<div class="icono-redes">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+											<path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+										</svg>
+									</div>
+								</section>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<img src="Imagenes/logo-blanco.png" alt="Logo de una flor de loto blanca">
+	</footer>
+
+    <script src='script.js'></script>
+</body>
+</html>
